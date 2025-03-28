@@ -24,5 +24,6 @@ Desenvolver as funcionalidades conforme requisitos
 - [CT005] Cadastre, altere e exclua um pedido.
 
 ## Tecnologias
+- Node.JS
 
 ## Passo a Passo de como executar a API
