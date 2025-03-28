@@ -24,6 +24,50 @@ Desenvolver as funcionalidades conforme requisitos
 - [CT005] Cadastre, altere e exclua um pedido.
 
 ## Tecnologias
-- Node.JS
+Backend:
+
+Node.js
+
+Express
+
+Prisma ORM
+
+PostgreSQL/MySQL
+
+Testes:
+
+Insomnia
+
+Testes automatizados
 
 ## Passo a Passo de como executar a API
+
+Pré-requisitos
+Node.js 16+
+
+Banco de dados Mysql
+
+Insomnia (para testes)
+
+Instalação
+Clone o repositório
+
+git clone [url-do-repositorio]
+
+cd snoppy-petshop
+
+Instale as dependências
+
+npm install
+
+Configure o ambiente
+
+cp .env.example .env
+# Edite o .env com suas credenciais
+Execute as migrações
+
+npx prisma migrate dev
+
+Inicie o servidor
+
+npm start
